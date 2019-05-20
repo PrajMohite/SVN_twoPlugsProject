@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="twoplugtest Suite" duration-ms="274660" started-at="2019-05-02T15:33:20Z" finished-at="2019-05-02T15:37:54Z">
+    <groups>
+    </groups>
+    <test name="TestNGTest1" duration-ms="274660" started-at="2019-05-02T15:33:20Z" finished-at="2019-05-02T15:37:54Z">
+      <class name="com.testCases.TP_TC_073">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.TP_TC_073@26ba2a48]" name="setup" is-config="true" duration-ms="19347" started-at="2019-05-02T15:34:50Z" finished-at="2019-05-02T15:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateNeedTest()[pri:0, instance:com.testCases.TP_TC_073@26ba2a48]" name="CreateNeedTest" duration-ms="36687" started-at="2019-05-02T15:35:10Z" finished-at="2019-05-02T15:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNeedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.TP_TC_073@26ba2a48]" name="tearDown" is-config="true" duration-ms="1400" started-at="2019-05-02T15:35:47Z" finished-at="2019-05-02T15:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TP_TC_073 -->
+      <class name="com.testCases.TP_TC_072">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.TP_TC_072@42d3bd8b]" name="setup" is-config="true" duration-ms="40479" started-at="2019-05-02T15:33:20Z" finished-at="2019-05-02T15:34:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateServiceTest()[pri:0, instance:com.testCases.TP_TC_072@42d3bd8b]" name="CreateServiceTest" duration-ms="48791" started-at="2019-05-02T15:34:01Z" finished-at="2019-05-02T15:34:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateServiceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.TP_TC_072@42d3bd8b]" name="tearDown" is-config="true" duration-ms="868" started-at="2019-05-02T15:34:50Z" finished-at="2019-05-02T15:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TP_TC_072 -->
+      <class name="com.testCases.TP_TC_075">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.TP_TC_075@3b81a1bc]" name="setup" is-config="true" duration-ms="9912" started-at="2019-05-02T15:36:23Z" finished-at="2019-05-02T15:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SelCatNegative()[pri:0, instance:com.testCases.TP_TC_075@3b81a1bc]" name="SelCatNegative" duration-ms="21995" started-at="2019-05-02T15:36:33Z" finished-at="2019-05-02T15:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelCatNegative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.TP_TC_075@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1738" started-at="2019-05-02T15:36:55Z" finished-at="2019-05-02T15:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TP_TC_075 -->
+      <class name="com.testCases.TP_TC_074">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.TP_TC_074@5f2050f6]" name="setup" is-config="true" duration-ms="10419" started-at="2019-05-02T15:35:48Z" finished-at="2019-05-02T15:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SelectCategory()[pri:0, instance:com.testCases.TP_TC_074@5f2050f6]" name="SelectCategory" duration-ms="23677" started-at="2019-05-02T15:35:58Z" finished-at="2019-05-02T15:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.TP_TC_074@5f2050f6]" name="tearDown" is-config="true" duration-ms="714" started-at="2019-05-02T15:36:22Z" finished-at="2019-05-02T15:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TP_TC_074 -->
+      <class name="com.testCases.TP_TC_076">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.TP_TC_076@64616ca2]" name="setup" is-config="true" duration-ms="17272" started-at="2019-05-02T15:36:56Z" finished-at="2019-05-02T15:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SubCatAll()[pri:0, instance:com.testCases.TP_TC_076@64616ca2]" name="SubCatAll" duration-ms="39145" started-at="2019-05-02T15:37:14Z" finished-at="2019-05-02T15:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubCatAll -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.TP_TC_076@64616ca2]" name="tearDown" is-config="true" duration-ms="1474" started-at="2019-05-02T15:37:53Z" finished-at="2019-05-02T15:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TP_TC_076 -->
+    </test> <!-- TestNGTest1 -->
+  </suite> <!-- twoplugtest Suite -->
+</testng-results>

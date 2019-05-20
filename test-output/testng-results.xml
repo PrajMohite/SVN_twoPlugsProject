@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="154953" started-at="2019-05-02T15:02:46Z" finished-at="2019-05-02T15:05:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="154953" started-at="2019-05-02T15:02:46Z" finished-at="2019-05-02T15:05:21Z">
+      <class name="com.testCases.TP_TC_072">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCases.TP_TC_072@57baeedf]" name="setup" is-config="true" duration-ms="63897" started-at="2019-05-02T15:02:47Z" finished-at="2019-05-02T15:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateServiceTest()[pri:0, instance:com.testCases.TP_TC_072@57baeedf]" name="CreateServiceTest" duration-ms="90097" started-at="2019-05-02T15:03:50Z" finished-at="2019-05-02T15:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateServiceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.TP_TC_072@57baeedf]" name="tearDown" is-config="true" duration-ms="853" started-at="2019-05-02T15:05:21Z" finished-at="2019-05-02T15:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TP_TC_072 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

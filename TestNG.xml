@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="twoplugtest Suite" >
+
+<!-- <suite name="TestSuite" thread-count="1" parallel="classes" preserve-order="true">  -->
+	<listeners>		<!-- 	packagename.classname  (for extent reports) -->
+				<listener class-name="com.utilities.Reporting"/>
+		</listeners>    
+	   
+	  
+	
+		  <test name="TestNGTest1" thread-count="5">
+				<!-- 	passing browser parameter in base class to run the desired browser -->
+			 <!-- 	<parameter name="browser" value="chrome" />  -->
+			   		<classes> 
+			   					<!-- 	packagename.classname   -->
+			   	 	<class name="com.testCases.TP_TC_072"/> 
+			   	<class name="com.testCases.TP_TC_073"/> 
+			  <class name="com.testCases.TP_TC_074"/> 
+			  <class name="com.testCases.TP_TC_075"/> 
+			   	<class name="com.testCases.TP_TC_076"/> 			    	
+			    	</classes>
+			  </test> 
+		<!-- <test name="TestNGTest2" thread-count="5">
+					<parameter name="browser" value="firefox" />
+					<classes>
+						<class name="com.SVNTwoPlugs.testCases.TC_TP_001"/>  
+					</classes>
+				</test>  --> <!-- Test --> 	
+  
+ 
+				 				
+</suite> <!-- Suit --> 
